@@ -628,7 +628,7 @@ form{
 @media screen and (max-width: 768px) {
   .form-group {
     width: 100%;
-    padding-inline: 70px;
+    padding-inline: 30px;
   }
 }
 
