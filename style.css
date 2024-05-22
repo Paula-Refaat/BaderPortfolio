@@ -91,7 +91,12 @@ nav .nav-links a.selected {
   cursor: pointer;
   transition: background 0.3s ease;
 }
+article img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
 
+}
 .main .info button:hover,
 .content .post-list .post-item .buttons button:hover {
   background: #1a237e;
@@ -320,12 +325,21 @@ footer p {
   flex-direction: column;
   gap: 20px;
 }
-
-.content .post-list .post-item {
-  background-color: #dbedf2;
+.content .post-list .post-item{
   padding: 24px;
-  width: 960px;
+}
+.content .post-list article{
+  background-color: #dbedf2;
+  display: flex;
+  align-items: center;
+  padding: 24px;
   border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .content .post-list article{
+    flex-direction: column;
+  }
+  
 }
 
 .content .post-list .post-item .buttons {
