@@ -91,7 +91,9 @@ nav .nav-links a.selected {
   cursor: pointer;
   transition: background 0.3s ease;
 }
-article img {
+article img,
+  article video
+{
   width: 400px;
   height: auto;
   border-radius: 10px;
@@ -340,7 +342,9 @@ footer p {
     flex-direction: column;
     width: 100%;
   }
-  .content .post-list article img{
+  .content .post-list article img,
+    .content .post-list article video
+  {
     width: 100%;
     height: auto;
   }
