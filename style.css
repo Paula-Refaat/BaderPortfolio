@@ -92,12 +92,10 @@ nav .nav-links a.selected {
   transition: background 0.3s ease;
 }
 article img,
-  article video
-{
+article video {
   width: 400px;
   height: auto;
   border-radius: 10px;
-
 }
 .main .info button:hover,
 .content .post-list .post-item .buttons button:hover {
@@ -327,10 +325,10 @@ footer p {
   flex-direction: column;
   gap: 20px;
 }
-.content .post-list .post-item{
+.content .post-list .post-item {
   padding: 24px;
 }
-.content .post-list article{
+.content .post-list article {
   background-color: #dbedf2;
   display: flex;
   align-items: center;
@@ -338,17 +336,15 @@ footer p {
   border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
-  .content .post-list article{
+  .content .post-list article {
     flex-direction: column;
     width: 100%;
   }
   .content .post-list article img,
-    .content .post-list article video
-  {
+  .content .post-list article video {
     width: 100%;
     height: auto;
   }
-  
 }
 
 .content .post-list .post-item .buttons {
@@ -605,7 +601,12 @@ footer p {
     margin: 40px 0;
     height: auto;
   }
-
+  .info {
+    order: 1;
+  }
+  main img {
+    order: 2;
+  }
   .main .info h1 {
     font-size: 30px;
     margin-bottom: 16px;
@@ -637,13 +638,13 @@ footer p {
     height: auto;
   }
 }
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.form-group{
+.form-group {
   width: 600px;
   margin-inline: auto;
   margin-bottom: 20px;
@@ -667,7 +668,7 @@ form{
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-textarea{
+textarea {
   min-height: 100px;
   max-height: 300px;
   max-width: 100%;
@@ -695,23 +696,22 @@ form button:disabled {
   cursor: not-allowed;
 }
 
-
-.page-title.contact{
+.page-title.contact {
   display: flex;
   justify-content: center;
 }
 
-.error{
+.error {
   color: red;
   font-size: 14px;
 }
-.main .info .socials a{
+.main .info .socials a {
   font-size: 30px;
 }
-.main .info .socials{
+.main .info .socials {
   margin-top: 20px;
 }
 
-.main .info button a{ 
+.main .info button a {
   color: white;
 }
